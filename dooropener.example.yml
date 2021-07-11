@@ -1,0 +1,20 @@
+telegram:
+    token: XXXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    chat: -XXXXXXXXXX
+
+http:
+    bind: 0.0.0.0:8080
+    secret_uri: /something?asdf=asedf&werwer=asdf
+
+servo:
+    pin: 18
+
+    pushes: 7
+
+    pushed_angle: 147
+    pushed_wait: 600ms
+
+    released_angle: 135
+    released_wait: 150ms
+
+    angle_inactive: 46
